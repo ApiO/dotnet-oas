@@ -22,7 +22,11 @@ x86/
 bld/
 [Bb]in/
 [Oo]bj/
-[Ll]og/
+*/[Ll]og/
+[Bb]uild/
+[Bb]uilds/
+
+.idea/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -52,7 +56,6 @@ BenchmarkDotNet.Artifacts/
 project.lock.json
 project.fragment.lock.json
 artifacts/
-**/Properties/launchSettings.json
 
 # StyleCop
 StyleCopReport.xml
@@ -328,3 +331,6 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+
+tmp/
+[Tt]emp/

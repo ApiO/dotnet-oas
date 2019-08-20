@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClientSdk\ClientSdk.csproj" />
+    <ProjectReference Include="..\Sdk.Fu\Sdk.Fu.csproj" />
   </ItemGroup>
 
 </Project>

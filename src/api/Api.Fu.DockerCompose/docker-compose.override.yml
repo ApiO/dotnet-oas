@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  api-fu:
+    ports:
+      - 50100:80
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production

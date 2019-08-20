@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  api-game-manager:
+    image: ${DOCKER_REGISTRY}api.fu
+    build:
+      context: .
+      dockerfile: src/api/Api.Fu/Dockerfile
